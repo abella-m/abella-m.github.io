@@ -88,11 +88,6 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-footer{
-  background-color:#bd5d38;
-  color: #fff;
-  position: relative;
-}
 
 hr {
   margin: 1rem 0;
@@ -2494,7 +2489,8 @@ textarea.form-control-lg {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
- 
+  -webkit-print-color-adjust: exact;
+          color-adjust: exact;
 }
 .form-check-input[type=checkbox] {
   border-radius: 0.25em;
@@ -11325,7 +11321,6 @@ h1, .h1 {
 p.lead {
   font-size: 1.15rem;
   font-weight: 400;
-  text-align: justify;
 }
 
 .subheading {
